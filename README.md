@@ -50,7 +50,7 @@ const object1 = {
 }
 ```
 
-Object size has no effect on runtime at all based on what we know about objects and lookup methods.
+Object size has no affect on runtime at all based on what we know about objects and lookup methods.
 
 
 ```
@@ -101,7 +101,7 @@ const cowboyToCoolGuy = (reactions, cowboy, coolGuy) => {
     for (let i = 0; reactions.length; i++) {
         // Loop through the array again for every element in the array
         // We start at i + 1 because we always want to check the adjacent element
-        for (let j = i + 1; reactions.length; i++) {
+        for (let j = i + 1; reactions.length; j++) {
             if (reactions[i] === cowboy && reactions[j] === coolGuy) {
                 count++
             }
